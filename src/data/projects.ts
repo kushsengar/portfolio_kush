@@ -16,6 +16,34 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "linktoqr",
+    title: "LinkToQR",
+    tagline:
+      "Free dynamic QR code generator SaaS with real-time scan analytics and 20+ use-case templates",
+    thumbnail: "/projects/linktoqr.jpg",
+    category: "SaaS",
+    role: "Full-Stack Developer",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel",
+      "Analytics",
+    ],
+    problem:
+      "Businesses and individuals need QR codes for WiFi, payments, menus, social media, and more — but most QR generators are either bloated with ads, limited to static codes, or charge for basic features like scan tracking. There was no clean, free, use-case-first QR tool that just works.",
+    solution:
+      "Built LinkToQR — a free, open-source dynamic QR code generator with 20+ dedicated use-case generators (WiFi, UPI, WhatsApp, Instagram, menus, vCards, and more). Each generator is optimized for its purpose with a clean, distraction-free UI. Users can create unlimited static QR codes, track scan analytics, and edit URLs after printing with dynamic QR codes.",
+    impact: [
+      "20+ dedicated QR generators tailored to specific use cases",
+      "Dynamic QR codes with real-time scan analytics and URL editing",
+      "100% free tier with unlimited static QR codes and open-source codebase",
+    ],
+    liveUrl: "https://linktoqr-alpha.vercel.app/",
+    repoUrl: "https://github.com/kushsengar",
+    featured: true,
+  },
+  {
     slug: "violence-threat-alerting-system",
     title: "Violence & Threat Alerting System",
     tagline: "Real-time video surveillance with CNN-based threat detection",
