@@ -44,6 +44,34 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    slug: "structure-studio",
+    title: "Structure Studio",
+    tagline:
+      "Premium architectural, interior & structural design studio website — built for a real client",
+    thumbnail: "/projects/structure-studio.jpg",
+    category: "Freelance",
+    role: "Frontend Developer (Client Project)",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel",
+      "SEO",
+      "PWA",
+    ],
+    problem:
+      "An architectural design studio needed a professional, high-converting website to showcase their portfolio of 248+ delivered projects, attract premium residential and commercial clients, and replace their Instagram-only online presence with a proper web platform featuring services, portfolio, contact, and a construction material calculator.",
+    solution:
+      "Designed and developed a premium, responsive website for Structure Studio with a sophisticated design language — warm earthy tones, editorial typography, and smooth micro-interactions. Built dedicated pages for services (architectural, interior, structural design), a portfolio gallery with project photography, a quote request flow, client testimonials, and an interactive material calculator for construction planning. Implemented full SEO with structured data (JSON-LD), Open Graph meta, PWA support, and optimized image loading.",
+    impact: [
+      "Complete online presence for a 248+ project design studio serving clients globally",
+      "Interactive material calculator for construction cost estimation",
+      "Full SEO optimization with JSON-LD structured data and PWA support",
+    ],
+    liveUrl: "https://structure-studio.vercel.app/",
+    featured: true,
+  },
+  {
     slug: "violence-threat-alerting-system",
     title: "Violence & Threat Alerting System",
     tagline: "Real-time video surveillance with CNN-based threat detection",

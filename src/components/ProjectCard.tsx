@@ -22,7 +22,9 @@ export function ProjectCard({ project }: { project: Project }) {
                                             ? "📱"
                                             : project.category === "SaaS"
                                                 ? "🚀"
-                                                : "🛠️"}
+                                                : project.category === "Freelance"
+                                                    ? "🎨"
+                                                    : "🛠️"}
                         </span>
                     </div>
                 </div>
