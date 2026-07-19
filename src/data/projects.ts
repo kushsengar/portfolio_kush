@@ -102,7 +102,7 @@ export const projects: Project[] = [
     title: "Structure Studio",
     tagline:
       "Premium architectural, interior & structural design studio website — built for a real client",
-    thumbnail: "/projects/structure-studio.jpg",
+    thumbnail: "/projects/structure-studio.png",
     category: "Freelance",
     role: "Frontend Developer (Client Project)",
     techStack: [
