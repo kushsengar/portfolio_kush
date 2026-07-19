@@ -16,6 +16,32 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "srijan-school",
+    title: "Srijan International School",
+    tagline: "Modern, fully responsive premium website for an international school",
+    thumbnail: "/projects/srijan-school.png",
+    category: "Frontend",
+    role: "Frontend Developer",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "Vite",
+      "React Router",
+    ],
+    problem:
+      "Srijan International School needed a premium, modern, and visually stunning web presence to showcase their academic excellence, facilities, and campus. The website required a fast, responsive, and accessible architecture.",
+    solution:
+      "Designed and developed a complete frontend solution using React 19 and Vite for instant load times. Implemented a sophisticated design language using Tailwind CSS v4, featuring custom glassmorphism, smooth scroll animations, and interactive galleries. Built a component-driven architecture with 8 dedicated pages including academics, admissions, faculty, and contact workflows.",
+    impact: [
+      "Responsive, mobile-first design with interactive UI components",
+      "Highly optimized production build with client-side routing",
+      "Modern aesthetic with custom scroll animations and gallery lightbox",
+    ],
+    liveUrl: "https://srijan-school.vercel.app/",
+    featured: true,
+  },
+  {
     slug: "linktoqr",
     title: "LinkToQR",
     tagline:
