@@ -20,7 +20,7 @@ export const projects: Project[] = [
     slug: "srijan-school",
     title: "Srijan International School",
     tagline: "Modern, fully responsive premium website for an international school",
-    thumbnail: "/projects/srijan-school.png",
+    thumbnail: "/projects/srijan-ss.png",
     category: "Frontend",
     role: "Frontend Developer",
     techStack: [
