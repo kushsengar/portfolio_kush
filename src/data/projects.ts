@@ -17,6 +17,32 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "minesh-hospital",
+    title: "Minesh Hospital",
+    tagline: "Modern, responsive hospital website with online appointment booking",
+    thumbnail: "/projects/minesh-ss.png",
+    category: "Full-Stack",
+    role: "Full-Stack Developer",
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS v4",
+      "React 19",
+    ],
+    problem:
+      "Local hospitals often lack a modern digital presence, making it difficult for patients to find doctor information, explore medical services, and request appointments online, which leads to repetitive phone inquiries and a poor patient experience.",
+    solution:
+      "Developed a comprehensive hospital website using Next.js 15 App Router and Tailwind CSS v4. Implemented responsive pages for departments, doctor profiles, and emergency contacts. Built an appointment booking system with client-side validation and local data persistence, along with SEO optimization and structured JSON-LD data.",
+    impact: [
+      "Modern digital presence with 100% responsive, mobile-first design",
+      "Streamlined appointment booking workflow reducing repetitive inquiries",
+      "Optimized for SEO with structured data, sitemap, and >95 Lighthouse score",
+    ],
+    liveUrl: "https://minesh-hospital.vercel.app/",
+    featured: true,
+    screenshots: ["/projects/minesh-ss.png"],
+  },
+  {
     slug: "srijan-school",
     title: "Srijan International School",
     tagline: "Modern, fully responsive premium website for an international school",
