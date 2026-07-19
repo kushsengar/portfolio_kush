@@ -69,14 +69,10 @@ export default function CaseStudyPage({ params }: Props) {
                     </div>
                 </AnimateOnScroll>
 
-                {/* Hero Image Placeholder */}
+                {/* Hero Image */}
                 <AnimateOnScroll>
-                    <div className="aspect-video glass rounded-2xl mb-16 flex items-center justify-center overflow-hidden relative">
-                        <div className="absolute inset-0 bg-gradient-to-br from-violet-600/10 via-transparent to-purple-600/10" />
-                        <div className="relative text-center">
-                            <span className="text-5xl block mb-3">🖼️</span>
-                            <span className="text-sm text-text-secondary">Project screenshot</span>
-                        </div>
+                    <div className="aspect-video glass rounded-2xl mb-16 flex items-center justify-center overflow-hidden relative border border-white/5 shadow-2xl shadow-violet-900/20">
+                        <img src={project.thumbnail} alt={project.title} className="w-full h-full object-cover" />
                     </div>
                 </AnimateOnScroll>
 
@@ -138,6 +134,27 @@ export default function CaseStudyPage({ params }: Props) {
                         </div>
                     </section>
                 </AnimateOnScroll>
+
+                {/* Screenshots */}
+                {project.screenshots && project.screenshots.length > 0 && (
+                    <AnimateOnScroll>
+                        <section className="mb-16">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-10 h-10 rounded-xl bg-blue-500/10 flex items-center justify-center">
+                                    <span className="text-blue-400 font-bold">📸</span>
+                                </div>
+                                <h2 className="text-2xl font-bold text-text-primary">Screenshots</h2>
+                            </div>
+                            <div className="flex flex-col gap-8">
+                                {project.screenshots.map((imgSrc, idx) => (
+                                    <div key={idx} className="glass rounded-2xl overflow-hidden border border-white/5 shadow-xl">
+                                        <img src={imgSrc} alt={`${project.title} screenshot ${idx + 1}`} className="w-full h-auto object-cover" />
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    </AnimateOnScroll>
+                )}
 
                 {/* Links */}
                 <AnimateOnScroll>

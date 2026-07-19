@@ -12,6 +12,7 @@ export interface Project {
   liveUrl?: string;
   repoUrl?: string;
   featured: boolean;
+  screenshots?: string[];
 }
 
 export const projects: Project[] = [
@@ -40,6 +41,7 @@ export const projects: Project[] = [
     ],
     liveUrl: "https://srijan-school.vercel.app/",
     featured: true,
+    screenshots: ["/projects/srijan-ss.png"],
   },
   {
     slug: "linktoqr",
